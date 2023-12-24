@@ -1,0 +1,35 @@
+/* Basic styles for the learning platform */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+#courses {
+  margin-top: 20px;
+}
+
+#courseList {
+  list-style: none;
+  padding: 0;
+}
+
+#courseList li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#courseList li:hover {
+  text-decoration: underline;
+}
